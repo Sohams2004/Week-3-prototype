@@ -9,8 +9,6 @@ public class CameraSwitch : MonoBehaviour
 
     [SerializeField] bool isCamSwithced = false;
 
-    [SerializeField] Transform playerPos;
-
     private void Start()
     {
         camera_3d.enabled = false;
